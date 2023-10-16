@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTransaction">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/header_transaction"
+            android:scaleType="fitXY"
+            android:id="@+id/header"/>
+
+        <TextView
+            android:id="@+id/All_Trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="All Transaction"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="23dp"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/search_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_toRightOf="@+id/All_Trans"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="12dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calendar"
+            android:layout_toRightOf="@+id/search_bar"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_below="@+id/header"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Today"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_salary"
+            android:background="@drawable/bg_icon_salarypng"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Salary"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="UI Project"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="145dp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="290dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="+Rp. 15.000.000"
+            android:textColor="@color/green_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 10"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="314dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

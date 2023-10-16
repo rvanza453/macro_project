@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/heroicons_home_solid"
+        android:title="home" />
+    <item
+        android:id="@+id/goals"
+        android:icon="@drawable/goals"
+        android:title="goals" />
+    <item
+        android:id="@+id/input"
+        android:icon="@drawable/tambah_input"
+        android:title="input" />
+    <item
+        android:id="@+id/transaction"
+        android:icon="@drawable/uil_transaction"
+        android:title="transaction" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/gg_profile"
+        android:title="profile" />
+
+</menu>

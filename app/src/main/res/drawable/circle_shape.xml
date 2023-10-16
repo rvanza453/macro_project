@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#000000" /> <!-- Warna background lingkaran -->
+    <corners android:radius="100dp" /> <!-- Mengatur sudut sudut agar menjadi lingkaran -->
+</shape>

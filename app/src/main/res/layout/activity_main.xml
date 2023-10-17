@@ -38,7 +38,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/youngblue"
-            app:menu="@menu/bottom_navbar" />
+            app:menu="@menu/bottom_navbar"
+            app:itemIconTint="#003591"/>
 
     </com.google.android.material.bottomappbar.BottomAppBar>
 

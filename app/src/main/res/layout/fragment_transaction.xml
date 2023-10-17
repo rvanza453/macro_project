@@ -90,7 +90,6 @@
             android:layout_marginTop="145dp" />
 
         <TextView
-            android:id="@+id/total"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -102,7 +101,6 @@
             android:textSize="15dp" />
 
         <TextView
-            android:id="@+id/tanggal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="sept 10"
@@ -112,9 +110,340 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="314dp" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="135dp"/>
 
 
 
+
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_shoping"
+            android:background="@drawable/bg_icon_shoping"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Shoping"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Macbook Pro 2020"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="225dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="-Rp. 24.490.000"
+            android:textColor="@color/red_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 10"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="394dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="215dp"/>
+
+
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_food"
+            android:background="@drawable/bg_icon_food"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Food"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="280dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="KFC"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="305dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="-Rp. 57.000"
+            android:textColor="@color/red_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 10"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="474dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="295dp"/>
+
+
+
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_salary"
+            android:background="@drawable/bg_icon_salarypng"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Salary"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="360dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Ojol"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="385dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="530dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="+Rp. 2.000.000"
+            android:textColor="@color/green_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 10"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="554dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="375dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Yesterday"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="450dp"
+            android:textColor="@color/black"/>
+
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_food"
+            android:background="@drawable/bg_icon_food"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Food"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="500dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Nasi Padang"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="525dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="670dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="-Rp. 20.000"
+            android:textColor="@color/red_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 9"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="694dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="515dp"/>
+
+
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_food"
+            android:background="@drawable/bg_icon_food"
+            android:layout_below="@+id/All_Trans"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Food"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="580dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Nasi Goreng"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="605dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="750dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="-Rp. 13.000"
+            android:textColor="@color/red_light"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sept 9"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="774dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/All_Trans"
+            android:layout_marginTop="595dp"/>
 
     </RelativeLayout>
 

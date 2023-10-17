@@ -13,16 +13,13 @@
         android:theme="@style/Theme.Simpelin_macro"
         tools:targetApi="31">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".input"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
+            android:name=".SignUpActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>

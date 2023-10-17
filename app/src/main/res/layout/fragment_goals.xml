@@ -91,6 +91,7 @@
         android:padding="50dp"/>
 
     <ImageButton
+        android:id="@+id/btn_Goals"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/button_goals"

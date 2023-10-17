@@ -5,6 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".FragmentTransaction">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -446,5 +449,6 @@
             android:layout_marginTop="595dp"/>
 
     </RelativeLayout>
+    </ScrollView>
 
 </FrameLayout>

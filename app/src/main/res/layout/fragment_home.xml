@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/textView"
@@ -13,50 +17,38 @@
         android:fontFamily="@font/poppins_light"
         android:text="Halo!"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/poppins_regular"
         android:text="Chairur Rijal"
         android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:layout_marginLeft="20dp"/>
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btn_notification"
         android:layout_width="71dp"
         android:layout_height="71dp"
         android:layout_marginTop="28dp"
+        android:layout_marginLeft="230dp"
         android:background="@android:color/transparent"
-        android:src="@drawable/notif"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:src="@drawable/notif" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="71dp"
         android:layout_height="71dp"
         android:layout_marginTop="28dp"
-        android:src="@drawable/profil"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/profil" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,17 +62,19 @@
             android:layout_height="60dp"
             android:background="@android:color/transparent"
             android:src="@drawable/button_income"
-            android:layout_marginTop="150dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginTop="130dp"
+            android:layout_weight="@integer/material_motion_duration_short_1"
             />
 
         <ImageButton
+            android:id="@+id/imageButton4"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="130dp"
             android:background="@android:color/transparent"
             android:src="@drawable/button_outcome"
             android:layout_marginLeft="20dp"
+            android:layout_weight="@integer/material_motion_duration_short_2"
             />
 
     </LinearLayout>
@@ -88,18 +82,19 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="200dp"
+        android:paddingBottom="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/header"
             android:text="Recent Transaction"
             android:fontFamily="@font/poppins_medium"
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="245dp"
+            android:layout_marginTop="15dp"
             android:textColor="@color/black"/>
 
         <ImageButton
@@ -107,7 +102,7 @@
             android:layout_height="50dp"
             android:src="@drawable/icon_salary"
             android:background="@drawable/bg_icon_salarypng"
-            android:layout_marginTop="290dp"
+            android:layout_marginTop="60dp"
             android:layout_marginLeft="20dp"/>
 
         <TextView
@@ -117,7 +112,7 @@
             android:fontFamily="@font/poppins_medium"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="290dp"
+            android:layout_marginTop="60dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -127,13 +122,13 @@
             android:fontFamily="@font/poppins_light"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="314dp" />
+            android:layout_marginTop="84dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="290dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="20dp"
             android:fontFamily="@font/poppins_medium"
             android:text="+Rp. 15.000.000"
@@ -148,13 +143,13 @@
             android:textSize="15dp"
             android:layout_marginRight="20dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="314dp" />
+            android:layout_marginTop="84dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
-            android:layout_marginTop="355dp"/>
+            android:layout_marginTop="125dp"/>
 
 
 
@@ -167,7 +162,7 @@
             android:layout_height="50dp"
             android:src="@drawable/icon_shoping"
             android:background="@drawable/bg_icon_shoping"
-            android:layout_marginTop="370dp"
+            android:layout_marginTop="140dp"
             android:layout_marginLeft="20dp"/>
 
         <TextView
@@ -177,7 +172,7 @@
             android:fontFamily="@font/poppins_medium"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="370dp"
+            android:layout_marginTop="140dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -187,13 +182,13 @@
             android:fontFamily="@font/poppins_light"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="394dp" />
+            android:layout_marginTop="164dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="370dp"
+            android:layout_marginTop="140dp"
             android:layout_marginRight="20dp"
             android:fontFamily="@font/poppins_medium"
             android:text="-Rp. 24.490.000"
@@ -208,13 +203,13 @@
             android:textSize="15dp"
             android:layout_marginRight="20dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="394dp" />
+            android:layout_marginTop="164dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
-            android:layout_marginTop="435dp"/>
+            android:layout_marginTop="205dp"/>
 
 
 
@@ -225,7 +220,7 @@
             android:layout_height="50dp"
             android:src="@drawable/icon_food"
             android:background="@drawable/bg_icon_food"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="220dp"
             android:layout_marginLeft="20dp"/>
 
         <TextView
@@ -235,7 +230,7 @@
             android:fontFamily="@font/poppins_medium"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="220dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -245,13 +240,13 @@
             android:fontFamily="@font/poppins_light"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="474dp" />
+            android:layout_marginTop="244dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="220dp"
             android:layout_marginRight="20dp"
             android:fontFamily="@font/poppins_medium"
             android:text="-Rp. 57.000"
@@ -266,13 +261,13 @@
             android:textSize="15dp"
             android:layout_marginRight="20dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="474dp" />
+            android:layout_marginTop="244dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
-            android:layout_marginTop="515dp"/>
+            android:layout_marginTop="285dp"/>
 
 
 
@@ -284,7 +279,7 @@
             android:layout_height="50dp"
             android:src="@drawable/icon_salary"
             android:background="@drawable/bg_icon_salarypng"
-            android:layout_marginTop="530dp"
+            android:layout_marginTop="300dp"
             android:layout_marginLeft="20dp"/>
 
         <TextView
@@ -294,7 +289,7 @@
             android:fontFamily="@font/poppins_medium"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="530dp"
+            android:layout_marginTop="300dp"
             android:textColor="@color/black"/>
 
         <TextView
@@ -304,13 +299,13 @@
             android:fontFamily="@font/poppins_light"
             android:textSize="15dp"
             android:layout_marginLeft="90dp"
-            android:layout_marginTop="554dp" />
+            android:layout_marginTop="324dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="530dp"
+            android:layout_marginTop="300dp"
             android:layout_marginRight="20dp"
             android:fontFamily="@font/poppins_medium"
             android:text="+Rp. 2.000.000"
@@ -325,13 +320,13 @@
             android:textSize="15dp"
             android:layout_marginRight="20dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="554dp" />
+            android:layout_marginTop="324dp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
-            android:layout_marginTop="595dp"/>
+            android:layout_marginTop="365dp"/>
 
 
 
@@ -345,7 +340,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="650dp"
+            android:layout_marginTop="400dp"
             android:textColor="@color/black"/>
 
         <ImageButton
@@ -353,10 +348,10 @@
             android:layout_height="wrap_content"
             android:src="@drawable/bayar_kos"
             android:background="@android:color/transparent"
-            android:layout_marginTop="680dp"
-            android:paddingLeft="20dp"/>
+            android:layout_marginTop="440dp"
+            android:layout_centerHorizontal="true"/>
 
     </RelativeLayout>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
+</ScrollView>

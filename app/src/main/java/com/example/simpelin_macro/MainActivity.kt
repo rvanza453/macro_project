@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.goals -> selectedFragment = FragmentGoals()
                 R.id.input -> selectedFragment = FragmentInput()
                 R.id.transaction -> selectedFragment = FragmentTransaction()
-//                R.id.profile -> selectedFragment = ProfileFragment()
+                R.id.profile -> selectedFragment = FragmentProfil()
             }
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, selectedFragment!!).commit()

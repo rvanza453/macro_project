@@ -13,7 +13,8 @@
         android:scaleType="fitXY"
         android:src="@drawable/background"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText"
@@ -88,7 +89,7 @@
         app:layout_constraintVertical_bias="0.931" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/log_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"

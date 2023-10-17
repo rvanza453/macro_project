@@ -1,14 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentInputGoals">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/header_input_goals" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="20dp"
+            android:text="Kategori"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="30dp">
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_outcash"
+                android:src="@drawable/solar_cashoutbroken" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_icon_shoping"
+                android:src="@drawable/icon_shoping"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_health"
+                android:src="@drawable/streamline_healthmedicalheartrate"
+                android:layout_marginLeft="30dp"/>
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_pencil"
+                android:src="@drawable/pepiconspencil_electricity"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="20dp"
+            android:text="Nama Goals"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="20dp"
+            android:text="Jumlah Target"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="20dp"
+            android:text="Target Hari"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/tambah_goals" />
+
+    </LinearLayout>
 
 </FrameLayout>

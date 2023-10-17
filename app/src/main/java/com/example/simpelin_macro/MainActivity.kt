@@ -1,5 +1,6 @@
 package com.example.simpelin_macro
 
+import FragmentGoals
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.home -> selectedFragment = FragmentHome()
                 R.id.goals -> selectedFragment = FragmentGoals()
                 R.id.input -> selectedFragment = FragmentInput()
-//                R.id.transaction -> selectedFragment = TransactionFragment()
+                R.id.transaction -> selectedFragment = FragmentTransaction()
 //                R.id.profile -> selectedFragment = ProfileFragment()
             }
             supportFragmentManager.beginTransaction()

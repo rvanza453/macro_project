@@ -58,23 +58,24 @@
 
         <ImageButton
             android:id="@+id/imageButton3"
+            android:scaleType="fitXY"
             android:layout_width="150dp"
             android:layout_height="60dp"
+            android:layout_marginLeft="35dp"
             android:background="@android:color/transparent"
             android:src="@drawable/button_income"
             android:layout_marginTop="130dp"
-            android:layout_weight="@integer/material_motion_duration_short_1"
             />
 
         <ImageButton
             android:id="@+id/imageButton4"
+            android:scaleType="fitXY"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginTop="130dp"
             android:background="@android:color/transparent"
             android:src="@drawable/button_outcome"
             android:layout_marginLeft="20dp"
-            android:layout_weight="@integer/material_motion_duration_short_2"
             />
 
     </LinearLayout>

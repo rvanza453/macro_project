@@ -79,6 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@drawable/btn_submit"
+        android:background="@android:color/transparent"
         android:layout_marginTop="100dp"/>
 
 </LinearLayout>
